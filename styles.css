@@ -1,7 +1,7 @@
 /* Style the top navigation bar */
 .header {
     
-  padding: 50px;
+  padding: 40px;
   text-align: center;
   background: #edbfed3f;
   color: rgb(5, 65, 33);
@@ -12,6 +12,13 @@
   background-color: #333;
   overflow: hidden;
 }
+.topnav-right{
+  float:right;
+  color: #ddd;
+  text-align: center;
+  padding: 14px  16px;
+  font: size 17px; ;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -21,6 +28,14 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.topnav-right{
+  float:right;
+  color: #ddd;
+  text-align: center;
+  padding: 14px  16px;
+  text-decoration: wavy;
+  font: size 17px; ;
 }
 
 /* Change the color of links on hover */
@@ -34,3 +49,4 @@
   background-color: #3b5d50;
   color: white;
 }
+git
