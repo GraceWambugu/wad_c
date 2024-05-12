@@ -1,7 +1,28 @@
+:root{
+
+  color: #3b5d50;
+  color: #f4f0f4;
+  color: #000;
+  color: beige;
+}
+
+.{
+margin:0;
+padding:0;
+box sizing:border-box;
+
+}
+body{
+
+font family:san serif;
+}
+
+
+
 .menu_bar{
   background-color: #333;
   height: 80px;
-  width: 100%;
+  width: 90%;
   display:flex ;
 align-items:center;
 justify-content: space-between;
@@ -21,6 +42,7 @@ font-size: 30 px;
 .menu_bar ul{
 list-style: none ;
 display:flex;
+position: relative;
 }
 .menu_bar ul li{
 
@@ -29,13 +51,36 @@ display:flex;
 .menu_bar ul li a{
   color:rgb(250, 248, 248);
   text-decoration: none;
-  font-size:20 px ;
+  font-size:15 px ;
   transition: all o.3s;
 }
 .menu_bar ul li a:hover{
 
   color: #3e8e41;
 }
+.dropdown_menu{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: #0f0e0f;
+}
+
+.dropdown_menu ul {
+  display: block;
+  margin: 5px ;
+
+}
+
+.dropdown_menu ul li{
+width: 150px;
+padding: 10px;
+  
+}
+
+
+
+
 
 
 
