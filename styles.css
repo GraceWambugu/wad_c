@@ -1,5 +1,4 @@
 
-
 .menu_bar {
   background-color: #333;
   height: 80px;
@@ -10,12 +9,12 @@ justify-content: space-between;
 padding: 0 5%;
 }
 .logo {
-  color:#f4f0f4;
+  color:#e8ede1;
   font-size: 30 px;
 }
 
 .logo span{
-color:#3b5d50;
+color:#177507;
 font-size: 30 px;
 }
   
@@ -41,7 +40,7 @@ font-size: 30 px;
 }
 
 .dropdown_menu ul li {
-  width: 1px;
+  width: 20px;
   padding: 10px;
 
 }
