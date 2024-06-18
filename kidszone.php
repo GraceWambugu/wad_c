@@ -16,3 +16,6 @@
     <img src="img/happykids.jpg"height="500" width="2000">
 </body>
 </html>
+<footer>
+  <p>&copy; 2024 Your Website. All rights reserved.</p>
+</footer>
