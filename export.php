@@ -19,3 +19,4 @@
     <img src="img/africa.jpeg" height="800" width="2000">
 </body>
 </html>
+<?php include 'footer.php'; ?>
