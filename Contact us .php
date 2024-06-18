@@ -68,3 +68,6 @@
 <img src="img/custard.webp" alt="custard" height="500" width="1000">
 </body>
 </html>
+<footer>
+  <p>&copy; 2024 Your Website. All rights reserved.</p>
+</footer>
