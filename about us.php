@@ -94,3 +94,4 @@ body {
 
 <div class ="background"></div>
 </html>
+<?php include 'footer.php'; ?>
