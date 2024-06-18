@@ -38,6 +38,7 @@
       <td>Mexico</td>
     </tr>
   </table> 
-
+  <?php include 'footer.php'; ?>
 </body>
+
 </html>
