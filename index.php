@@ -33,11 +33,7 @@
           <button type="submit" class="btn">Login</button>
         </form>
       </div>
-      <footer>
-  <p>&copy; 2024 Your Website. All rights reserved.</p>
-</footer>
-
-
+      <?php include 'footer.php'; ?>
 
 </body>
 </html>
