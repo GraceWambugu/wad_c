@@ -9,7 +9,15 @@
 
 <title>Background image</title>
 
- 
+<div class="topnav">
+    <a href="./">Home</a>
+    <a href="about us.php">About</a>
+    <a href="kidszone.php">Projects</a>
+    <a href="delivery.php">Products</a>
+    <a href="Contact us .php">Contact us</a> 
+    <a href="Sign in.php">Sign in</a>
+    <a href="signup.php">Sign up </a>
+
 
  
 
