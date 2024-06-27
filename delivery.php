@@ -14,12 +14,7 @@
 </div>
 <body>
   <style>
-    body {
-      background-image: url("img/farm.jpeg");
-      background-size: cover; 
-      background-position: center; 
-     
-    }
+    
     </style>  
    <table>
     <tr>

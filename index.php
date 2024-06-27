@@ -3,20 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <title>Bloomberg Goat Farm</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+<title>Bloomberg Goat farm</title>
 
-<title>Background image</title>
-
-<div class="topnav">
-    <a href="./">Home</a>
-    <a href="about us.php">About</a>
-    <a href="kidszone.php">Projects</a>
-    <a href="delivery.php">Products</a>
-    <a href="Contact us .php">Contact us</a> 
-    <a href="Sign in.php">Sign in</a>
-    <a href="signup.php">Sign up </a>
 
 
  
@@ -28,6 +20,23 @@
 
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+          
+        <li><a href="">Home </a></li>
+        <li><a href="">About </a></li>
+        <li><a href="">products</a></li>
+        <li><a href="">Contacts</a></li>
+        <li><a href="">Sign up </a></li>
+        <li><a href="">Sign in</a></li>
+
+        </ul>
+
+    </nav>
+    <main>
+        <h3>This is the home page</h3>
+        <p>   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, error sequi consequuntur id modi ipsam debitis quis optio voluptatum laboriosam quidem ab deserunt. Suscipit quas, libero asperiores corporis laboriosam esse?</p>
+    </main>
     <div class="bg-img">
         <form action="/action_page.php" class="container">
           <h1>Login</h1>
