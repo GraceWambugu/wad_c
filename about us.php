@@ -3,14 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="about us style.css"><title>Goat Weight and Milk Production</title>
-
-    
+    <link rel="stylesheet" href="CSS/styles.css">
+   
     <div class="header">
-        <h1>About us </h1>
-        <h4>Transaparency with our users </h4>
-
-      </div>
+  
     <style>
 
 body {
@@ -34,7 +30,24 @@ body {
         }
     </style>
 </head>
+
 <body>
+<nav class="navbar">
+        <ul>
+          
+        <li><a href="Sign in.php">Sign in </a></li>
+        <li><a href="signup.php">signup </a></li>
+        <li><a href="product.php">products</a></li>
+        <li><a href="Contact us .php">Contacts</a></li>
+        <li><a href="about us.php">About us </a></li>
+        <li><a href="index.php">Home</a></li>
+        <h1 class="logo">Bloom<span>Berg</span>  </h1>
+        </ul>
+
+    
+  
+</nav>
+
 <p> We take transpaeny with our customers very personally ,therefore we let them get a glimpse of our goat production scale,Below is a reperesentation of some of the specie we keep in our goat farm alongside the milk production we get </p>
 
 

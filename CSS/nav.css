@@ -1,20 +1,33 @@
+.logo{
+    color: #f8f5f5;
+    font-size: 30px;
+}
+.logo span{
+color: rgb(126, 185, 126);
+font-size: 30px;
+}
+
+
 
 .navbar ul{
     list-style-type: none;
     background-color: rgb(58, 58, 58);
-    padding: 5%;
+    padding: 0%;
     margin: 0px;
     overflow: hidden;
+    display:flexbox;
+    
     }
     .navbar a{
         color: rgb(253, 246, 246);
         text-decoration: none;
         padding: 15px;
         text-align:center ;
+        font-size: medium;
     }
     .navbar  a:hover{
     background-color: rgb(74, 76, 77);
     }
     .navbar li{
-        float : left;
+        float:right;
     }
