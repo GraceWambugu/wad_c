@@ -1,3 +1,5 @@
+
+<?php include server.php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,9 +32,26 @@
       
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <label for="name"><b>Username</b></label>
+          <input type="Name" placeholder="Enter Pname" name="name" required>
       
           <button type="submit" class="btn">Login</button>
         </form>
       </div>
+      <form method="post" action="login.php">
+  	
+  	<div class="input-group">
+  		<label>Username</label>
+  		<input type="text" name="username" >
+  	</div>
+  	<div class="input-group">
+  		<label>Password</label>
+  		<input type="password" name="password">
+  	</div>
+  	<div class="input-group">
+  		<button type="submit" class="btn" name="login_user">Login</button>
+  	</div>
+  	<p>
 </body>
 </html>
