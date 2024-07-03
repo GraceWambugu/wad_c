@@ -1,5 +1,25 @@
 
-<?php include server.php ?>
+<?php 
+include('process-form.php');
+
+if(isset($_POST['submit'])){
+ 
+  include('process-form.php');
+  
+  if(isset('process-from.php'));
+  $name=$_POST['name']
+  $name=$_POST['']
+  $name=$_POST['name']
+  $name=$_POST['name']
+  
+    
+}
+else {}
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,23 +43,8 @@
           <h1 class="logo">Bloom<span>Berg</span>  </h1>
           </ul>
     </nav>
-    <div class="bg-img">
-        <form action="/action_page.php" class="container">
-          <h1>Login</h1>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-
-          <label for="name"><b>Username</b></label>
-          <input type="Name" placeholder="Enter Pname" name="name" required>
-      
-          <button type="submit" class="btn">Login</button>
-        </form>
-      </div>
-      <form method="post" action="login.php">
+    
+      <form  action= "preocess-form.php" method="post"></form>
   	
   	<div class="input-group">
   		<label>Username</label>
