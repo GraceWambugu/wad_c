@@ -1,13 +1,12 @@
 <?php
-session_start();
+$mysqli = new mysqli("localhost","root","","bloombergfarm");
 
-// initializing variables
-$username = "";
-$email    = "";
-$errors = array(); 
+// Check connection
+if ($mysqli -> connect_errno) {
+  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+  exit();
+}
 
-// connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'bloombergfarm');
+echo "connection succesfull girll!"
 
-echo "Connection succesful";
-
+?>

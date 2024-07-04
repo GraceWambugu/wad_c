@@ -1,24 +1,4 @@
 
-<?php 
-include('process-form.php');
-
-if(isset($_POST['submit'])){
- 
-  include('process-form.php');
-  
-  if(isset('process-from.php'));
-  $name=$_POST['name']
-  $name=$_POST['']
-  $name=$_POST['name']
-  $name=$_POST['name']
-  
-    
-}
-else {}
-
-}
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
