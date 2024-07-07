@@ -43,6 +43,11 @@
     </p>
 
 </main>
+
+<br>
+
+
+</br>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -50,19 +55,19 @@
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="img/bighorngoats.jpeg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <div class="text">Bloomberg farm</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="img/kid drinking  milk.png" style="width:100%">
-    <div class="text">Caption Two</div>
+    <div class="text">    Growing strong healthy 'kids' is what wwe do </div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="img/two goats.jpeg" style="width:100%">
-    <div class="text"></div>
+    <div class="text">Wlk with us on every journey</div>
   </div>
 
   <!-- Next and previous buttons -->
