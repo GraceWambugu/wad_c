@@ -67,7 +67,8 @@ die(mysqli_error($con));
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit" name="submit">
+   <button type="submit" class="btn
+   btn-primary"name="submit">submit</button>
 
   </form>
 </div>
