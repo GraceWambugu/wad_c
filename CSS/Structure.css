@@ -80,14 +80,16 @@ form, .content {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 10000px;
-  position: absolute ;
+  max-width: 1000px;
+  position: relative ;
   margin: auto;
+  left: 6%;
+  transform: translateX(-50);
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: block;
   width: 1000px;
 }
 

@@ -32,26 +32,31 @@
         <li>
             <a href="about us.php">About us <i class = "fas fa-caret-down"></i> </a>
 </ul>
+<main>
+
+
+
+</main>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="img/farm.jpeg" style="width:100%">
+    <img src="img/bighorngoats.jpeg" style="width:100%">
     <div class="text">Caption Text</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="img/happykids.jpg" style="width:100%">
+    <img src="img/kid drinking  milk.png" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="img/custard.webp" style="width:100%">
-    <div class="text">Caption Three</div>
+    <img src="img/two goats.jpeg" style="width:100%">
+    <div class="text"></div>
   </div>
 
   <!-- Next and previous buttons -->
