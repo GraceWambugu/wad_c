@@ -10,6 +10,8 @@ body{
 main{
     margin-left: 20px;
     margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
 }
 form, .content {
     width: 30%;

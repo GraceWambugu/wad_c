@@ -31,10 +31,16 @@
         <li><a href="Contact us .php">Contacts</a></li>
         <li>
             <a href="about us.php">About us <i class = "fas fa-caret-down"></i> </a>
+            <li><a href="index.php">Home</a></li>
 </ul>
 <main>
 
-
+<p>
+        Nestled in the scenic landscapes of Nyandarua, Bloom Berg Goat Dairy Farm was established in 1960. 
+        With a rich heritage spanning over six decades, the farm is renowned for its high-quality goat milk products. 
+        Committed to sustainable farming practices and animal welfare, Bloom Berg continues to be a pillar of excellence 
+        in the dairy industry, providing nutritious and delicious dairy products to its community and beyond.
+    </p>
 
 </main>
 <!-- Slideshow container -->
