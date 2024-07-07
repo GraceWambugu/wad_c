@@ -1,3 +1,23 @@
+<?php 
+include 'server.php';
+if(isset($_POST['submit'])){
+$First_Name=$_POST['firstname'];
+$Last_Name=$_POST['lastname'];
+$Country=$_POST['country'];
+$subject=$_POST['subject'];
+
+$sql="insert into `users`(First Name,Last Name,Country,Subject)
+values('$First_name','$Last_Name','$Country','$Subject')";
+$result=mysqli_query($con,$sql);
+
+if($result){
+  echo"data inserted succesfully";
+}else
+die(mysqli_error($con));
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +50,7 @@
     </div>
     <div class="container">
   <form action="action_page.php">
-
+<form method = "post"></form>
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -47,7 +67,7 @@
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" name="submit">
 
   </form>
 </div>
