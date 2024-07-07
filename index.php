@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel = "stylesheet" href="css/structuresStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <title>Bloomberg Goat farm</title>
 
 
@@ -24,14 +25,21 @@
         <ul>
             
         <h1 class="logo">Bloom<span>Berg</span>  </h1>
-          
-        <li><a href="Sign in.php">Sign in </a></li>
+          <li><a href="Sign in.php">Sign in </a></li>
         <li><a href="signup.php">signup </a></li>
         <li><a href="product.php">products</a></li>
         <li><a href="Contact us .php">Contacts</a></li>
-        <li>
-            <a href="about us.php">About us <i class = "fas fa-caret-down"></i> </a>
-            <li><a href="index.php">Home</a></li>
+        <li><a href="about us.php">About us </a></li>
+
+     <li> <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div></li>
+</div>
+          <li><a href="index.php">Home</a></li>
 </ul>
 <main>
 
