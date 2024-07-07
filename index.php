@@ -13,7 +13,7 @@
     <link rel = "stylesheet" href="css/structuresStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <title>Bloomberg Goat farm</title>
-<h1 class="logo">Bloom<span>Berg</span>  </h1>
+
 
 <?include_once("template/navigation.php");?>
 
@@ -22,6 +22,8 @@
  
     <nav class="navbar">
         <ul>
+            
+        <h1 class="logo">Bloom<span>Berg</span>  </h1>
           
         <li><a href="Sign in.php">Sign in </a></li>
         <li><a href="signup.php">signup </a></li>
@@ -29,9 +31,6 @@
         <li><a href="Contact us .php">Contacts</a></li>
         <li>
             <a href="about us.php">About us <i class = "fas fa-caret-down"></i> </a>
-        
-        <div class = "dropdown__menu">
-<ul>
 </ul>
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -117,8 +116,7 @@ function showSlides(n) {
     <main>
         
         
-        <h3>This is the home page</h3>
-        <p>   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, error sequi consequuntur id modi ipsam debitis quis optio voluptatum laboriosam quidem ab deserunt. Suscipit quas, libero asperiores corporis laboriosam esse?</p>
+     p>
     </main>
    
       <?php include 'footer.php'; ?>
