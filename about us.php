@@ -129,3 +129,23 @@ body {
     <textarea cols="30" rows="7" name="message" id="ms" required></textarea><br><br>
     <input type="submit" name="send_message" value="Send Message" >
 </form>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.php" class="active">Home</a>
+  <a href="about us.php">About us</a>
+  <a href="Contact us .php">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">sign up
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="signup.php">sign up</a>
+      <a href="Sign in.php">Log in</a>
+     
+    </div>
+  </div>
+  <a href="product.php">prosucts</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+    </div>

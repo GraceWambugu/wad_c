@@ -25,6 +25,10 @@
   
 </nav>
 
+
+
+    </div>
+
   <h2>Goat yoghurt </h2>
   <p>Discovering the creamy delight of goat yogurt isn't just about enjoying its smooth texture and tangy flavor; it's also about embracing its commitment to purity and natural goodness. Crafted with care and devoid of artificial additives or preservatives, goat yogurt exemplifies simplicity and wholesomeness.</p>
 

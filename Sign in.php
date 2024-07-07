@@ -23,6 +23,10 @@
           <h1 class="logo">Bloom<span>Berg</span>  </h1>
           </ul>
     </nav>
+  
+ 
+
+    </div>
     
       <form  action= "preocess-form.php" method="post"></form>
   	

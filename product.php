@@ -20,6 +20,8 @@
           </ul>
 
     </nav>
+ 
+    </div>
 
 <div class="header">
     <h1>Delivery</h1>
