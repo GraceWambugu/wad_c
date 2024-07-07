@@ -1,5 +1,5 @@
 <?php 
-include 'server.php';
+include 'connect.php';
 if(isset($_POST['submit'])){
 $First_Name=$_POST['firstname'];
 $Last_Name=$_POST['lastname'];
