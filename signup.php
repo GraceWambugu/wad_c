@@ -38,11 +38,13 @@ if(isset($_POST['submit'])){
     </nav>
 
     <div class="container">
-        <h1>Register</h1>
-        <p>Please fill in this form to create an account.</p>
+        
         <hr>
 
         <form action="signup.php" method="post">
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
             <label for="name"><b>Name</b></label>
             <input type="text" placeholder="Enter your name" name="name" id="name" required>
 
