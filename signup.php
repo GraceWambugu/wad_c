@@ -57,6 +57,8 @@ if(isset($_POST['submit'])){
 
             <label for="passwordrepeat"><b>Repeat Password</b></label>
             <input type="password" placeholder="Repeat Password" name="passwordrepeat" id="passwordrepeat" required>
+         
+        
             <hr>
 
             <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
