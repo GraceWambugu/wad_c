@@ -74,8 +74,7 @@ $repeatpassword = $row['repeatpassword'];
             <input type="email" placeholder="Enter Email" name="email" id="email" required value= <?php echo $email;?>>
 
             <label for="password"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="password" id="password" required value= <?php echo $password;?>>
-
+            <input type="password" placeholder="Enter Password" name="password" id="password" required >
             <label for="passwordrepeat"><b>Repeat Password</b></label>
             <input type="password" placeholder="Repeat Password" name="passwordrepeat" id="passwordrepeat" required value=<?php echo $repeatpassword;?>>
          
