@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
+    <nav class="navbar">
+        <ul>
+            
+        <nav class="navbar">
+        <ul>
+            <li><a href="Sign_in.php">Sign in</a></li>
+            <li><a href="signup.php">Signup</a></li>
+            <li><a href="product.php">Products</a></li>
+            <li><a href="contact_us.php">Contacts</a></li>
+            <li><a href="about_us.php">About us</a></li>
+            <li><a href="index.php">Home</a></li>
+            <h1 class="logo">Bloom<span>Berg</span></h1>
+        </ul>
+    </nav>
+
 </head>
 <body>
 Acknowledgment
