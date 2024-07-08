@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $password = $_POST['password'];
     $repeatpassword = $_POST['passwordrepeat'];
 
-    $sql = "UPDATE `signup` set id=$id,name='$name', email='$email',password='$password', repeatpassword='$passwordrepeat'";
+    $sql = "UPDATE `signup` set id=$id,name='$name', email='$email',password='$password', repeatpassword='$passwordrepeat'WHERE id=$id";
     $result = mysqli_query($con, $sql);
     if($result){
         echo "Data updated successfully";
@@ -42,6 +42,26 @@ if(isset($_POST['submit'])){
     <div class="container">
         
         <hr>
+        <?php 
+include 'connect.php'; 
+$id=$_GET['updateid'];
+if(isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $repeatpassword = $_POST['passwordrepeat'];
+
+    $sql = "UPDATE `signup` set id=$id,name='$name', email='$email',password='$password', repeatpassword='$passwordrepeat'WHERE id=$id";
+    $result = mysqli_query($con, $sql);
+    if($result){
+        echo "Data updated successfully";
+       
+    } else {
+        die(mysqli_error($con));
+    }
+}
+?>
+
 
         <form action="signup.php" method="post">
         <h1>Register</h1>
