@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
     </ul>
 </nav>
 
-<div class="container">
+<div class="container my-5">
     <form action method="post">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
