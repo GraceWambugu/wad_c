@@ -15,8 +15,8 @@ if(isset($_GET['updateid'])){
         // Ensure the ID is an integer to prevent SQL injection
         $id = (int)$id;
 
-        // Update query
-        $sql = "UPDATE `signup` SET name='$name', email='$email', password='$password', passwordrepeat='$repeatpassword' WHERE id=$id";
+        // Update query (excluding passwordrepeat if it's not in your table)
+        $sql = "UPDATE `signup` SET name='$name', email='$email', password='$password' WHERE id=$id";
         $result = mysqli_query($con, $sql);
 
         if($result){
