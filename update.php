@@ -4,6 +4,15 @@ include 'connect.php';
 // Check if updateid parameter is set in the URL
 if(isset($_GET['updateid'])){
     $id = $_GET['updateid'];
+    $sql="SELECT *from `signup` where id= $id";
+    $result=mysqli_query($con,$sql);
+    $row=mysqli_fetch_assoc($result);
+$name=$row['name'];
+$email=$row['email'];
+$password=['password'];
+$repeatpassword = $row['repeatpassword'];
+
+
 
     // Check if the form has been submitted
     if(isset($_POST['submit'])){
