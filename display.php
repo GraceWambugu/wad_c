@@ -1,3 +1,6 @@
+<?php
+include 'connect.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,39 +12,51 @@
 
 </head>
 <body>
-    <div class ="container">
+    <div class="container">
 
-<button class="btn btn-primary my-5"><a a href="signup.php"class="text-light">Add user</a></button>
+        <button class="btn btn-primary my-5"><a href="signup.php" class="text-light">Add user</a></button>
 
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Repeat Password</th>
+                    <th scope="col">Operations</th>
+                </tr>
+            </thead>
+            <tbody>
 
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">Name</th>
-      <th scope="col">Email</th>
-      <th scope="col">Password</th>
-      <th scope="col">Repeat Password</th>
-      <th scope="col">Operations</th>
-    </tr>
-  </thead>
-  <tbody>
-
-  <?php 
-
-  $sql="Select *from `signup`";
-  $result=mysqli_query($con,$sql);
-  if($result){
-    $row=mysqli_fetch_assoc($result);
-    echo$ $row ['name'];
-  }
-  ?>
- 
-  </tbody>
-</table>
-
-
-
+            <?php 
+            $sql = "SELECT * FROM `signup`";
+            $result = mysqli_query($con, $sql);
+            if ($result) {
+                while ($row = mysqli_fetch_assoc($result)) {
+                    $id = $row['id'];
+                    $name = $row['name'];
+                    $email = $row['email'];
+                    $password = $row['password'];
+                    $repeatpassword = $row['repeatpassword'];
+                    echo '
+                    <tr>
+                        <th scope="row">'.$id.'</th>
+                        <td>'.$name.'</td>
+                        <td>'.$email.'</td>
+                        <td>'.$password.'</td>
+                        <td>'.$repeatpassword.'</td>
+                        <td>
+                            <button class="btn btn-primary"><a href="update.php?id='.$id.'" class="text-light">Update</a></button>
+                            <button class="btn btn-danger"><a href="delete.php?id='.$id.'" class="text-light">Delete</a></button>
+                        </td>
+                    </tr>
+                    ';
+                }
+            }
+            ?>
+            </tbody>
+        </table>
 
     </div>
 
