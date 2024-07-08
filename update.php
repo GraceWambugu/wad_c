@@ -1,22 +1,34 @@
 <?php 
 include 'connect.php'; 
-if(isset($_POST['submit'])){
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-    $repeatpassword = $_POST['passwordrepeat'];
 
-    $sql = "INSERT INTO `signup` (name, email, password, repeatpassword) VALUES ('$name', '$email', '$password', '$repeatpassword')";
-    $result = mysqli_query($con, $sql);
-    if($result){
-        echo "Data inserted successfully";
-        header('location:display.php');
-    } else {
-        die(mysqli_error($con));
+// Check if updateid parameter is set in the URL
+if(isset($_GET['updateid'])){
+    $id = $_GET['updateid'];
+
+    // Check if the form has been submitted
+    if(isset($_POST['submit'])){
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+        $repeatpassword = $_POST['passwordrepeat'];
+
+        // Ensure the ID is an integer to prevent SQL injection
+        $id = (int)$id;
+
+        // Update query
+        $sql = "UPDATE `signup` SET name='$name', email='$email', password='$password', passwordrepeat='$repeatpassword' WHERE id=$id";
+        $result = mysqli_query($con, $sql);
+
+        if($result){
+            echo "Data updated successfully";
+        } else {
+            die(mysqli_error($con));
+        }
     }
+} else {
+    echo "No updateid parameter specified";
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,10 +51,10 @@ if(isset($_POST['submit'])){
     </nav>
 
     <div class="container">
-        
         <hr>
-
-        <form action="signup.php" method="post">
+        
+        <!-- Update form action to the current file -->
+        <form action="" method="post">
         <h1>Register</h1>
         <p>Please fill in this form to create an account.</p>
         <hr>
@@ -58,11 +70,9 @@ if(isset($_POST['submit'])){
             <label for="passwordrepeat"><b>Repeat Password</b></label>
             <input type="password" placeholder="Repeat Password" name="passwordrepeat" id="passwordrepeat" required>
          
-        
             <hr>
-
             <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-            <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+            <button type="submit" class="btn btn-primary" name="submit">Update</button>
         </form>
     </div>
 
