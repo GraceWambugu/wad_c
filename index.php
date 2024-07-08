@@ -28,17 +28,8 @@
           <li><a href="Sign in.php">Sign in </a></li>
         <li><a href="signup.php">signup </a></li>
         <li><a href="product.php">products</a></li>
-        <li><a href="Contact us .php">Contacts</a></li>
+        <li><a href="Contact_us .php">Contacts</a></li>
         <li><a href="about us.php">About us </a></li>
-
-     <li> <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div></li>
-</div>
           <li><a href="index.php">Home</a></li>
 </ul>
 <main>

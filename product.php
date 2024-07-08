@@ -13,7 +13,7 @@
           <li><a href="Sign in.php">Sign in </a></li>
           <li><a href="signup.php">signup </a></li>
           <li><a href="product.php">products</a></li>
-          <li><a href="Contact us .php">Contacts</a></li>
+          <li><a href="Contact_us .php">Contacts</a></li>
           <li><a href="about us.php">About us </a></li>
           <li><a href="index.php">Home</a></li>
           <h1 class="logo">Bloom<span>Berg</span>  </h1>
