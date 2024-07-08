@@ -1,8 +1,15 @@
 
 <?php 
 include 'connect.php'; 
+if(isset($_POST['submit'])){
+$name= $_POST['name'];
+$email=  $_POST['email'];
+$password= $_POST['password'];
+$repeatpassword= $_POST['passwordrepeat'];
 
+$sql="insert into `signup`(name,email,password,repeatpassword)values('$name','$email','$password','$passwordrepeat')";
 
+}
 ?>
 
 <!DOCTYPE html>
@@ -45,11 +52,11 @@ include 'connect.php';
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" id="Password" required>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <label for="passwordrepeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="passwordrepeat" id="passwordrepeat" required>
     <hr>
 
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
