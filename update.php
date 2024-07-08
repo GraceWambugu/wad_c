@@ -1,12 +1,13 @@
 <?php 
 include 'connect.php'; 
+$id=$_GET['updateid'];
 if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $password = $_POST['password'];
     $repeatpassword = $_POST['passwordrepeat'];
 
-    $sql = "INSERT INTO `signup` (name, email, password, repeatpassword) VALUES ('$name', '$email', '$password', '$repeatpassword')";
+    $sql = "UPDATE `signup` (name, email, password, repeatpassword) VALUES ('$name', '$email', '$password', '$repeatpassword')";
     $result = mysqli_query($con, $sql);
     if($result){
         echo "Data inserted successfully";
@@ -59,13 +60,11 @@ if(isset($_POST['submit'])){
             <input type="password" placeholder="Repeat Password" name="passwordrepeat" id="passwordrepeat" required>
             <hr>
 
-            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+           
             <button type="submit" class="btn btn-primary" name="submit">Update</button>
         </form>
     </div>
 
-    <div class="container signin">
-        <p>Already have an account? <a href="Sign_in.php">Sign in</a>.</p>
-    </div>
+   
 </body>
 </html>
