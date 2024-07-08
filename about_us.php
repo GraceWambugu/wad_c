@@ -23,12 +23,12 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="img/male.jpg" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
+        <h2>Mike Zane </h2>
+        <p class="title">Marketer</p>
+        <p>Marketer of bllomberg dairies.</p>
+        <p>mikeZane@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -36,12 +36,14 @@
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <img src="img/director.jpg" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
+        <h2>Rachel Webster
+
+        </h2>
+        <p class="title">Director</p>
+        <p>Directorof Bloomberg dairy  company .</p>
+        <p>RachelRoss@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -49,12 +51,14 @@
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <img src="img/CEO.jpg"alt="Grace Njambi" style="width:100%">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <h2>Mary webstar </h2>
+        <p class="title">CEO
+            
+        </p>
+        <p>The CEO of bloomberg goat dairies .</p>
+        <p>Maryweb@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
