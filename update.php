@@ -7,11 +7,11 @@ if(isset($_POST['submit'])){
     $password = $_POST['password'];
     $repeatpassword = $_POST['passwordrepeat'];
 
-    $sql = "UPDATE `signup` (name, email, password, repeatpassword) VALUES ('$name', '$email', '$password', '$repeatpassword')";
+    $sql = "UPDATE `signup` set id=$id,name='$name', email='$email',password='$password', repeatpassword='$passwordrepeat'";
     $result = mysqli_query($con, $sql);
     if($result){
-        echo "Data inserted successfully";
-        header('location:display.php');
+        echo "Data updated successfully";
+       
     } else {
         die(mysqli_error($con));
     }
