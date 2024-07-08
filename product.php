@@ -24,10 +24,17 @@
     </div>
 
     <div class="card">
-  <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
-  <h1>Tailored Jeans</h1>
+  <img src="img/custard.webp" alt="custard" style="width:100%">
+  <h1>custard</h1>
   <p class="price">$19.99</p>
-  <p>Some text about the jeans..</p>
+  <p>purely from gooat milk</p>
+  <p><button>Add to Cart</button></p>
+
+
+  <img src="img/goat milk.webp" alt="Goat milk" style="width:100%">
+  <h1>  Goat milk </h1>
+  <p class="price">$9.99</p>
+  <p>fresh fro the farm</p>
   <p><button>Add to Cart</button></p>
 </div>
 
