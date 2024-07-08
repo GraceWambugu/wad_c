@@ -1,7 +1,3 @@
-<?php
-echo "Hello, World!";
-?>
-
 
 <?php 
 include 'connect.php';
@@ -45,7 +41,7 @@ if(isset($_POST['submit'])){
 </nav>
 
 <div class="container">
-    <form action="Contact_us.php" method="post">
+    <form action method="post">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
