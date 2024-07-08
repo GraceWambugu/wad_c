@@ -23,33 +23,12 @@
  
     </div>
 
-<div class="header">
-    <h1>Delivery</h1>
-    <h4>Yes!we can deliver to your door step</h4>
-  </div>
+    <div class="card">
+  <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Tailored Jeans</h1>
+  <p class="price">$19.99</p>
+  <p>Some text about the jeans..</p>
+  <p><button>Add to Cart</button></p>
 </div>
-<body>
-  <style>
-    
-    </style>  
-   <table>
-    <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
-    </tr>
-    <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Maria Anders</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <td>Centro comercial Moctezuma</td>
-      <td>Francisco Chang</td>
-      <td>Mexico</td>
-    </tr>
-  </table> 
-  <?php include 'footer.php'; ?>
-</body>
 
 </html>

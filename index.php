@@ -40,13 +40,7 @@
         Committed to sustainable farming practices and animal welfare, Bloom Berg continues to be a pillar of excellence 
         in the dairy industry, providing nutritious and delicious dairy products to its community and beyond.
     </p>
-
-</main>
-
-<br>
-
-
-</br>
+    
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
