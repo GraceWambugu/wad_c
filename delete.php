@@ -11,6 +11,7 @@ if(isset($_GET['deleteid'])){
 
     if($result){
         echo "Deleted successfully";
+        header('location:display.php');
     } else {
         die(mysqli_error($con));
     }
