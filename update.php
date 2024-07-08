@@ -71,13 +71,13 @@ $repeatpassword = $row['repeatpassword'];
             <input type="text" placeholder="Enter your name" name="name" id="name" required value=<?php echo $name;?> >
 
             <label for="email"><b>Email</b></label>
-            <input type="email" placeholder="Enter Email" name="email" id="email" required <?php echo $email;?>>
+            <input type="email" placeholder="Enter Email" name="email" id="email" required value= <?php echo $email;?>>
 
             <label for="password"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="password" id="password" required <?php echo $password;?>>
+            <input type="password" placeholder="Enter Password" name="password" id="password" required value= <?php echo $password;?>>
 
             <label for="passwordrepeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="passwordrepeat" id="passwordrepeat" required <?php echo $repeatpassword;?>>
+            <input type="password" placeholder="Repeat Password" name="passwordrepeat" id="passwordrepeat" required value=<?php echo $repeatpassword;?>>
          
             <hr>
             <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
